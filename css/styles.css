@@ -1,0 +1,261 @@
+
+@font-face{
+	font-family:myfont;
+	src:url('../fonts/BebasNeueRegular.ttf')
+	}
+
+
+body{	}
+
+
+header,main,nav
+	{width:960px;
+	margin:0px auto; 
+	}
+
+
+
+
+main{
+	border-bottom:2px solid #663300;
+	border-top:2px solid #663300;
+	border-left:8px solid #663300;
+	border-right:8px solid #663300;
+	background-image: url("../images/bg.JPG");
+	background-repeat:repeat;
+	height:512px;
+}
+
+
+
+header{
+	width: 960px;
+	margin: 0px auto;
+	}
+
+.header{
+	width:800px;
+	height:80px;
+	margin:0px auto; 
+	border:2px solid #AFC1C1;
+	border-radius:8px;
+	background-color:#AFC1C1;
+margin-top:60px
+
+	}
+
+.header P{ 
+	font-family:myfont;
+	color:#818F8F;
+	font-weight:bold;
+	font-size:35px;
+	margin-left:61px;
+	}
+
+
+.nav{
+	width:800px;
+	height:64px;
+	margin:0px auto;
+	 border:2px solid #C7B09E;
+	background-color:#C7B09E;
+	}
+
+
+.nav ul li{
+	display:inline;
+	 }
+
+.nav ul li a{
+	text-decoration:none; 
+	color:white;
+	padding:0px 28px 1px 28px;
+	margin-right:13px; 
+	font-size:20px;
+	font-weight:bold;
+	}
+
+
+.nav ul li a:hover{
+	text-decoration:none; 
+	color:black;
+	padding:16px 28px 23px 28px;
+	margin-right:13px;
+	 font-size:20px;
+	font-weight:bold;
+	background-color:#ECE0D4;
+	border-top:3px solid red;
+	}
+
+
+#load{
+	display:none
+	}
+
+#sec1{
+	width:800px;
+	height:54px;
+	margin:0px auto; 
+	border:2px solid white;
+	background-color:white;
+	}
+
+
+
+
+#menu{
+	
+width:800px;
+	height:54px;display:none;
+	}
+	
+
+
+table{
+	width:800px;
+	margin:0px auto;
+	}
+
+th{
+	background-color:#EAE7D8;
+	color:#605446;
+	font-size:20px;
+	padding:14px 35px 14px 35px;
+	font-family:myfont;
+	}
+
+td{
+	background-color:#EAE7D8;
+	color:#605446;
+	font-size:15px;
+	padding:14px 10px 14px 10px;
+	text-align:center;
+	}
+
+#color{
+	color:red;
+	}
+
+/**#color:hover{
+	color:red;
+	background-color:#F4B6A7;
+	border-radius:50px;
+	}
+
+*/
+#tab1{
+	width:800px;
+	height:54px;
+	display:none;
+	margin:0px auto;
+	}
+
+#load27{
+	display:none;
+	}
+
+#load28{
+	display:none;
+	}
+
+#load01{
+	display:none;
+	}
+
+
+#load30{
+	display:none;
+	}
+
+
+#tab2{
+	width:800px;
+	height:54px;
+	display:none;
+	margin:0px auto;
+	}
+
+
+
+.content,
+
+.content p {
+	margin: 4em 0;
+  	text-align: center;
+	}
+
+
+
+.content,
+.content p {
+	margin: 4em 0;
+  	text-align: center;
+	margin-bottom:0px;
+
+	}
+
+
+[data-tooltip] {
+	position: relative;
+	z-index: 2;
+	cursor: pointer;
+}
+
+
+[data-tooltip]:before,
+
+[data-tooltip]:after {
+  visibility: hidden;
+	
+}
+
+
+[data-tooltip]:before {
+	position: absolute;
+	bottom: 150%;
+	left: 50%;
+	margin-bottom: 5px;
+	margin-left: -80px;
+	padding: 7px;
+	width: 160px;
+	
+	border-radius:3px;
+	background-color: #000;
+	background-color: hsla(0, 0%, 20%, 0.9);
+	color: #fff;
+	content: attr(data-tooltip);
+	text-align: center;
+	font-size: 14px;
+	line-height:1.2;
+}
+
+
+[data-tooltip]:after {
+	position: absolute;
+	bottom: 150%;
+	left: 50%;
+	margin-left: -5px;
+	width: 0;
+	border-top: 5px solid #000;
+	border-top: 5px solid hsla(0, 0%, 20%, 0.9);
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+	content: " ";
+	font-size: 0;
+	line-height: 0;
+margin-top:-50px;
+
+}
+
+
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+	visibility: visible;
+	
+}
+.lowest{
+background-color:#ebb7a4;
+padding:5px 15px;
+border-radius:100px;
+}
+
